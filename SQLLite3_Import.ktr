@@ -1566,18 +1566,6 @@
         <formula>N</formula>
         <hyperlinkField/>
       </field>
-      <field>
-        <name>datanova</name>
-        <type>String</type>
-        <format/>
-        <title>datanova</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
     </fields>
     <cluster_schema/>
     <remotesteps>
@@ -1689,7 +1677,7 @@
 , Number_of_Deadlocks_sec
 , Write_Transactions_Sec
 FROM SQLPerfTbl 
-Where collection_time between '2018-06-01' and '2018-06-30'
+Where collection_time between '2019-03-01' and '2019-04-01'
 </sql>
     <limit>0</limit>
     <lookup/>
